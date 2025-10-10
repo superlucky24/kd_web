@@ -1,0 +1,79 @@
+@charset "utf-8";
+body{
+    font-family: "Noto Sans KR" sans-serif;
+    background-color: #f2f2f2;
+}
+#wrap{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+/* Header */
+header{
+    text-align: center;
+}
+header h1{
+    /* 경계선 */
+    border: 1px solid silver;
+    padding: 5px;
+
+    /* 텍스트 */
+    font-size: 3rem;
+    font-weight: bold;
+    color: gold;
+}
+header h1+p{
+    color: gold;
+}
+header img{
+    width: 240px;
+    height: 240px;
+}
+/* Contents */
+section{
+    margin-bottom: 8rem;
+}
+section h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #900;
+    border-bottom: 1px solid silver;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+table{
+    text-align-last: left;
+}
+tr, th, td{
+    width: 60px;
+    height: 2rem;
+}
+td{
+    width: 600px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 80px;
+}
+footer p{
+    color: #900;
+}
+footer p span{
+    font-weight: bold;
+}
+
+/* 추가 */
+.license th{
+    width: 80px;
+}
+.education>table th{
+    width: 100px;
+}
+.hobby{
+    margin-bottom: 0;
+}
+ul{
+    display: flex;
+}
