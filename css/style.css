@@ -47,6 +47,7 @@ body {
 
 /* header */
 header {
+    /* 위치 고정 */
     position: fixed;
     left: 0;
     top: 0;
@@ -92,6 +93,15 @@ header .logo {
     color: #767676;
     font-weight: 500;
 }
+.gnb li a:hover {
+    /* 컨텐츠 영역만큼 자리 차지 */
+    display: inline-block;
+    /* 위치 기준값 */
+    position: relative;
+    padding: 5px 0; 
+    color: var(--point-color);
+    font-weight: 500;
+}
 /* 가상요소 방식으로 요소 추가 */
 .gnb li a::after {
     content: "";
@@ -103,19 +113,19 @@ header .logo {
     width: 0;
     /* 눈에 보이게 높이값 변경 */
     height: 1px;
-    background-color: #767676;
+    background-color: var(--point-color);
     /* 트랜지션 : 너비 변경 */
     transition: width 300ms;
 }
 /* 색 변경 */
-.gnb .active a {
+/* .gnb .active a {
     color: var(--point-color);
-}
+} */
 /* 가상요소 방식으로 아래에 선추가 */
-.gnb .active a::after {
+/* .gnb .active a::after {
     width: 100%;
     background-color: var(--point-color);
-}
+} */
 /* hover 시 가상요소 너비를 100%로 */
 .gnb li a:hover::after {
     width: 100%;
