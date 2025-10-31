@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클론코딩</title>
+    <!-- 공통 CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 공통 JS -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/ui.js"></script>
+</head>
+<body>
+    <div id="wrap" class="wrap">
+        
+        <!-- header -->
+        <header>
+            <!-- logo, gnb -->
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="./">SY</a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#fe_be_porj">FE + BE PROJ.</a></li>
+                        <li class="active"><a href="#fe_proj">FE PROJ.</a></li>
+                        <li><a href="#about">ABOUT ME</a></li>
+                    </ul>
+                </nav>
+                <div class="header-utils">
+                    <button type="button" class="btn-all-menu">
+                        <i aria-hidden="hidden"></i>
+                        <span>전체보기</span>
+                    </button>
+                    <a href="#" class="btn-login">로그인</a>
+                </div>
+            </div>
+            <!-- gnb+logo -->
+        </header>
+        <!-- //header -->
+
+        <!-- main -->
+        <main id="main_content">
+            <!-- FE + BE PROJ. -->
+            <!-- <section id="fe_be_proj" class="sec fe-be-project"></section> -->
+            <!-- //FE + BE PROJ. -->
+
+            <!-- FE PROJ. -->
+            <section id="fe_proj" class="sec fe-project">
+                <div class="inner">
+                    <h2 class="title">
+                        <b>FE PROJ.</b>
+                    </h2>
+
+                    <!-- 프로젝트 리스트 -->
+                    <ul class="project-list">
+                        <!-- 인터파크 티켓 -->
+                        <li>
+                            <div class="project">
+                                <div class="img">
+                                    <img src="./images/img_portfolio_01.jpg" alt="프로젝트1">
+                                </div>
+                                <div class="infomation">
+                                    <h3>
+                                        <b>01</b><span>인터파크 티켓</span>
+                                    </h3>
+                                    <em>다양한 공연, 이벤트, 스포츠 경기 등의 티켓을 한 곳에서 손쉽게 예매해보세요.</em>
+                                    <p class="explain">반응형 웹 디자인(RWD) 템플릿으로, 모바일 기기부터 데스크톱까지 다양한 환경에서 웹사이트를 원할하게 이용할 수 있습니다.</p>
+                                    <ul class="details">
+                                        <li>jQuery 플러그인 → 슬라이더를 구현 (모바일에서는 세로형 이미지가 보이도록 함)</li>
+                                        <li>React.js → '장르별 랭킹' 탭 메뉴 구현</li>
+                                        <li>jQuery → '인터파크 Play' 탭 메뉴 구현</li>
+                                    </ul>
+                                    <dl>
+                                        <dt>TYPE</dt>
+                                        <dd>PC</dd>
+                                        <dt>TOOL</dt>
+                                        <dd>Figma, HTML, CSS, JS(jQuery)</dd>
+                                        <dt>참여도</dt>
+                                        <dd>100%</dd>
+                                    </dl>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" target="_blank">기획서 보기</a>
+                                    <a href="#" target="_blank">코딩 사이트 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- //인터파크 티켓 -->
+
+                        <!-- IDOOGEN -->
+                        <li>
+                            <div class="project">
+                                <div class="img">
+                                    <img src="./images/img_portfolio_02.jpg" alt="IDOOGEN">
+                                </div>
+                                <div class="infomation">
+                                    <h3>
+                                        <b>02</b><span>IDOOGEN</span>
+                                    </h3>
+                                    <em>다양한 캠핑 스타일을 구경하고, 여러분의 취향과 스타일에 맞는 캠핑을 찾아보세요!</em>
+                                    <p class="explain">flex 속성을 활용하여 유연하고 효율적인 레이아웃으로 구성하였습니다.</p>
+                                    <ul class="details">
+                                        <li>광고 탭, X버튼 클릭 시 없어짐</li>
+                                        <li>GNB 메뉴 선택 시 배경 흐려지게 하여 집중도를 높임</li>
+                                        <li>jQuery 플러그인을 분석하여 pager 버튼 모양 수정</li>
+                                    </ul>
+                                    <dl>
+                                        <dt>TYPE</dt>
+                                        <dd>PC</dd>
+                                        <dt>TOOL</dt>
+                                        <dd>Figma, HTML, CSS, JS(jQuery)</dd>
+                                        <dt>참여도</dt>
+                                        <dd>100%</dd>
+                                    </dl>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" target="_blank">기획서 보기</a>
+                                    <a href="#" target="_blank">코딩 사이트 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- //IDOOGEN -->
+
+                        <!-- VIBE -->
+                        <li>
+                            <div class="project">
+                                <div class="img">
+                                    <img src="./images/img_portfolio_03.jpg" alt="VIBE">
+                                </div>
+                                <div class="infomation">
+                                    <h3>
+                                        <b>03</b><span>VIBE</span>
+                                    </h3>
+                                    <em>다양한 장르의 음악을 감상하고, 신곡 발매 소식부터 클래식한 플레이리스트까지 다양한 음악 콘텐츠를 즐겨보세요.</em>
+                                    <p class="explain">모바일 웹 프로젝트로 사용자들이 휴대폰이나 태블릿과 같은 모바일 기기에서 편리하게 이용할 수 있도록 개발되었습니다.</p>
+                                    <ul class="details">
+                                        <li>각 카테고리마다 우측으로 스크롤 가능</li>
+                                        <li>차트 노래 재생 시 플레이리스트에 추가 + 재생 표시</li>
+                                    </ul>
+                                    <dl>
+                                        <dt>TYPE</dt>
+                                        <dd>Mobile</dd>
+                                        <dt>TOOL</dt>
+                                        <dd>Figma, HTML, CSS, JS(jQuery)</dd>
+                                        <dt>참여도</dt>
+                                        <dd>100%</dd>
+                                    </dl>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" target="_blank">모바일에서 보기</a>
+                                    <a href="#" target="_blank">PC에서 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- //VIBE -->
+
+                        <!-- MONOCHROME -->
+                        <li>
+                            <div class="project">
+                                <div class="img">
+                                    <img src="./images/img_portfolio_04.jpg" alt="MONOCHROME">
+                                </div>
+                                <div class="infomation">
+                                    <h3>
+                                        <b>04</b><span>MONOCHROME</span>
+                                    </h3>
+                                    <em>화려한 색과 배경은 잠시 넣어두고 黑과 白으로 기록합니다.</em>
+                                    <p class="explain">float 속성을 이해하고 활용하는 데 중점을 두고 있으며, 이를 통한 레이아웃을 활용하여 구현했습니다.</p>
+                                    <dl>
+                                        <dt>TYPE</dt>
+                                        <dd>PC</dd>
+                                        <dt>TOOL</dt>
+                                        <dd>Figma, HTML, CSS, JS(jQuery)</dd>
+                                        <dt>참여도</dt>
+                                        <dd>100%</dd>
+                                    </dl>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" target="_blank">기획서 보기</a>
+                                    <a href="#" target="_blank">코딩 사이트 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- //MONOCHROME -->
+
+                        <!-- PICO -->
+                        <li>
+                            <div class="project">
+                                <div class="img">
+                                    <img src="./images/img_portfolio_05.jpg" alt="PICO">
+                                </div>
+                                <div class="infomation">
+                                    <h3>
+                                        <b>05</b><span>PICO</span>
+                                    </h3>
+                                    <em>PICO가 당신을 VR 여행으로 초대합니다.</em>
+                                    <p class="explain">CSS와 JavaScript로 구현한 이벤트 페이지입니다.</p>
+                                    <dl>
+                                        <dt>TYPE</dt>
+                                        <dd>PC</dd>
+                                        <dt>TOOL</dt>
+                                        <dd>HTML, CSS, JS(jQuery)</dd>
+                                        <dt>참여도</dt>
+                                        <dd>100%</dd>
+                                    </dl>
+                                </div>
+                                <div class="btns">
+                                    <a href="#" target="_blank">코딩 사이트 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- //PICO -->
+                    </ul>
+                    <!-- //프로젝트 리스트 -->
+                </div>
+            </section>
+            <!-- //FE PROJ. -->
+
+            <!-- ABOUT ME -->
+            <!-- <section id="about" class ="sec about"></section> -->
+            <!-- //ABOUT ME -->
+        </main>
+        <!-- //main -->
+
+        <footer>
+            <div class="footer-main inner">
+                <div class="footer-info">
+                    <div class="family-site">
+                        <input type="checkbox" id="chk_family" hidden="hidden">
+                        <label for="chk_family" class="btn-family" title="패밀리 사이트 보기">SY@</label>
+                        <ul class="family-list">
+                            <li>
+                                <a href="./">SY@</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn-help" title="도움말">
+                        <span class="blind">도움말</span>
+                    </button>
+                    <ul class="sns">
+                        <li>
+                            <a href="#" target="_blank" title="네이버 블로그 방문하기">
+                                <img src="./images/sns_blog.png" alt="네이버 블로그">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="네이버 카페 방문하기">
+                                <img src="./images/sns_cafe.png" alt="네이버 카페">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="페이스북 방문하기">
+                                <img src="./images/sns_facebook.png" alt="페이스북">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="네이버 밴드 방문하기">
+                                <img src="./images/sns_band.png" alt="네이버 밴드">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-declaration"><span>신고하기</span></a>
+            </div>
+            <div class="footer-sub">
+                <div class="inner">
+                    <p>
+                        <img src="./images/modoo.png" alt="naver modoo">
+                        <span>로 무료 제작된 홈페이지입니다. 누구나 쉽게 무료로 만들고, 네이버 검색도 클릭 한 번에 노출!</span>
+                        <a href="https://www.modoo.at" target="_bank">https://www.modoo.at</a>
+                        <span>에서 지금 바로 시작하세요.</span>
+                    </p>
+                    <span class="copy">&copy; NAVER Corp.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
